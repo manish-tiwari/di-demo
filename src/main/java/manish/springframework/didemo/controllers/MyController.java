@@ -1,4 +1,4 @@
-package manish.springframework.didemo;
+package manish.springframework.didemo.controllers;
 
 import org.springframework.stereotype.Controller;
 
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MyController {
     public String hello() {
-        System.out.println("hello");
+        System.out.println("MyController hello !!!");
         return "ji";
     }
 }
